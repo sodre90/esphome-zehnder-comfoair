@@ -21,7 +21,7 @@ external_components:
   - components: [ zehnder_comfoair_q ]
     # uncomment for local dev
     # source: components
-    source: github://yoziru/esphome-zehnder-comfoair/components@main
+    source: github://sodre90/esphome-zehnder-comfoair/components@main
 
 
 esphome:
@@ -34,9 +34,9 @@ esphome:
     version: "2024.7.18"
 
 logger:
-  level: INFO
+  level: DEBUG
   logs:
-    canbus: INFO
+    canbus: DEBUG
 
 api:
   encryption:
