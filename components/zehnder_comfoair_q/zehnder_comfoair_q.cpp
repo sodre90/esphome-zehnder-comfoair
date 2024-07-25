@@ -74,7 +74,7 @@ namespace zehnder_comfoair_q
     {
         std::vector<uint8_t> command = {(uint8_t)(enable ? 0x84 : 0x85), 0x15 /* SCHEDULE */, subunit_id, property_id};
         if (enable)
-            command.insert(command.end(), {0x00, 0x00, 0x00, 0x00, (uint8_t)(duration_secs), (uint8_t)(duration_secs >> 8),
+            command.insert(command.end(), {0x00, 0x00, 0x00, 0x00, 0x01, (uint8_t)(duration_secs >> 8),
                                            (uint8_t)(duration_secs >> 16), (uint8_t)(duration_secs >> 24), property_value});
         send_command(command);
     }
