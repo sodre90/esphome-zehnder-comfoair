@@ -11,13 +11,19 @@ packages:
   board: !include board.yml
   button: !include button.yml
   canbus: !include canbus.yml
-  climate: !include climate.yml
   common: !include common.yml
-  fan: !include fan.yml
   select: !include select.yml
   sensors: !include sensors.yml
   switch: !include switch.yml
   text_sensors: !include text_sensors.yml
+  fan: !include fan.yml
+  climate: !include climate.yml
+
+external_components:
+  - components: [ zehnder_comfoair_q ]
+    # uncomment for local dev
+    # source: components
+    source: github://sodre90/esphome-zehnder-comfoair@main
 
 esphome:
   name: ${device_name}
@@ -29,9 +35,9 @@ esphome:
     version: "2024.8.0"
 
 logger:
-  level: INFO
+  level: DEBUG
   logs:
-    canbus: INFO
+    canbus: DEBUG
 
 api:
   encryption:
