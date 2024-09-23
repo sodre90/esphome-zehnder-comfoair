@@ -1,6 +1,6 @@
 {
   "name": "Zehnder ComfoAir Q",
-  "version": "2024.7.18",
+  "version": "2024.8.0",
   "home_assistant_domain": "esphome",
   "new_install_skip_erase": false,
   "builds": [
@@ -8,7 +8,7 @@
       "chipFamily": "ESP32",
       "ota": {
         "path": "comfoair-esp32/comfoair-esp32.ota.bin",
-        "md5": "c1bd150551012e53d56f389bb6b0e1f7"
+        "md5": "851e2b33ed9e76907b77dde019f8d6eb"
       },
       "parts": [
         {
@@ -18,10 +18,23 @@
       ]
     },
     {
+      "chipFamily": "ESP32-C6",
+      "ota": {
+        "path": "comfoair-esp32c6/comfoair-esp32c6.ota.bin",
+        "md5": "c9af8a62715d39ca2f682fd26ad61e88"
+      },
+      "parts": [
+        {
+          "path": "comfoair-esp32c6/comfoair-esp32c6.factory.bin",
+          "offset": 0
+        }
+      ]
+    },
+    {
       "chipFamily": "ESP32-S3",
       "ota": {
         "path": "comfoair-esp32s3/comfoair-esp32s3.ota.bin",
-        "md5": "6b07ce034876e53116e6564ee4032042"
+        "md5": "495a52e6b0d743010f92e1336e1b4a81"
       },
       "parts": [
         {
