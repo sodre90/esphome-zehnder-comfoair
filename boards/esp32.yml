@@ -1,9 +1,6 @@
 substitutions:
   can_tx_pin: GPIO25
   can_rx_pin: GPIO21
-  board: esp32dev
+  board: nodemcu-32s
   variant: esp32
   flash_size: 4MB
-
-esp32:
-  board: nodemcu-32s
