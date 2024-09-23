@@ -2,7 +2,7 @@
   "chipFamily": "ESP32-C6",
   "ota": {
     "path": "comfoair-esp32c6/comfoair-esp32c6.ota.bin",
-    "md5": "50b8cd06c624ffb45a96c876813ee378"
+    "md5": "5fcae666f4d9c395b7187e61a6d75189"
   },
   "parts": [
     {
