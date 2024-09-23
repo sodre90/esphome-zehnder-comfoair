@@ -8,7 +8,7 @@
       "chipFamily": "ESP32",
       "ota": {
         "path": "comfoair-esp32/comfoair-esp32.ota.bin",
-        "md5": "7ab0251b3b159a7965d5733d566c12e0"
+        "md5": "b98f51c748f8ec5888e263215c9ec2fb"
       },
       "parts": [
         {
@@ -21,7 +21,7 @@
       "chipFamily": "ESP32-C6",
       "ota": {
         "path": "comfoair-esp32c6/comfoair-esp32c6.ota.bin",
-        "md5": "6a23bebab0ebf052de34463987bd2502"
+        "md5": "e3436450b3f785771f940ab760c3b1cc"
       },
       "parts": [
         {
@@ -34,7 +34,7 @@
       "chipFamily": "ESP32-S3",
       "ota": {
         "path": "comfoair-esp32s3/comfoair-esp32s3.ota.bin",
-        "md5": "0dabb93800aa7b57ce4bfff45b003e01"
+        "md5": "24e595a8bf5985613f1f91522b5c0f6e"
       },
       "parts": [
         {
