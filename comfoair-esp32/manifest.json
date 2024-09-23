@@ -2,7 +2,7 @@
   "chipFamily": "ESP32",
   "ota": {
     "path": "comfoair-esp32/comfoair-esp32.ota.bin",
-    "md5": "851e2b33ed9e76907b77dde019f8d6eb"
+    "md5": "32987f89d985919f1475c7c41c19c520"
   },
   "parts": [
     {
