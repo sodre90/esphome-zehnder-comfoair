@@ -32,7 +32,7 @@ esphome:
   comment: ${device_description}
   project:
     name: yoziru.esphome-zehnder-comfoair
-    version: "2024.8.0"
+    version: "2024.9.1"
 
 logger:
   level: DEBUG
